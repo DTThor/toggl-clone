@@ -1,4 +1,4 @@
-# Apprenticeship Toggle
+# Toggl Clone
 
 ## To Run This Project Locally
 
