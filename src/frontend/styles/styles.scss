@@ -1,0 +1,98 @@
+$font-stack: 'GT Walsheim Pro', sans-serif;
+$mooveItNavy: #0a0a36;
+$mooveItPink: #f27a82;
+$mooveItTeal: #12a8bd;
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  font-weight: normal;
+  font-style: normal;
+  src: url('https://s3-us-west-2.amazonaws.com/salestool-web/GT-Walsheim-Pro-Regular.eot');
+  src: url('https://s3-us-west-2.amazonaws.com/salestool-web/GT-Walsheim-Pro-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://s3-us-west-2.amazonaws.com/salestool-web/GT-Walsheim-Pro-Regular.woff2')
+      format('woff2'),
+    url('https://s3-us-west-2.amazonaws.com/salestool-web/GT-Walsheim-Pro-Regular.woff')
+      format('font-woff'),
+    url('https://s3-us-west-2.amazonaws.com/salestool-web/GT-Walsheim-Pro-Regular.ttf')
+      format('truetype');
+}
+
+html {
+  font: 100% $font-stack;
+}
+
+.mooveItNavybg {
+  background-color: $mooveItNavy;
+}
+
+.mooveItNavyBorder {
+  border-color: $mooveItNavy;
+}
+
+.mooveItPink {
+  color: $mooveItPink;
+}
+
+.mooveItPinkBorder {
+  border-color: $mooveItPink;
+}
+
+.mooveItNavy {
+  color: $mooveItNavy;
+}
+
+.mooveItTeal {
+  color: $mooveItTeal;
+}
+
+.mooveItTealBorder {
+  border-color: $mooveItTeal;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown__content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown--active .dropdown__content {
+  display: block;
+}
+
+.react-datepicker__day--selected {
+  background-color: $mooveItNavy;
+}
+
+.react-datepicker__header {
+  background-color: $mooveItTeal;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__current-month {
+  color: white;
+}
+
+.s-alert-box {
+  box-shadow: -5px 5px 15px #909090;
+}
+
+.dropdown-list {
+  min-width: 300px;
+  position: absolute;
+  z-index: 999;
+  right: -190px;
+  top: 10px;
+}
+
+.wrap {
+  word-wrap: break-word;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: ellipsis;
+}
